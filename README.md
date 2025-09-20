@@ -80,7 +80,7 @@
 
 ## Recent activity
 <!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
+<!--RECENT_ACTIVITY:last_update-->
 
 ## Github Stats  
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Jordancuadro&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
