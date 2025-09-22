@@ -33,10 +33,15 @@ jobs:
         uses: FreddyMSchubert/github-activity-timeline@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: "YourUser" # Insert your username here
+          username: "Jordancuadro" # Insert your username here
           max_items: "5"
           event_templates: > # Customize what to display here
-            { /* see "Configuration" below */ }
+            {
+              "pr_opened": "{{index}}. 🆕 PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) opened: “{{payload.pull_request.title.slice(0,50)}}…”",
+              "pr_closed": "{{index}}. {{payload.pull_request.merged ? '🎯 Merged' : '❌ Closed'}} PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) by {{actor}}",
+              "pr_merged": "...",
+              "push": "{{index}}. 🚀 {{actor}} pushed {{payload.commits.length}} commits to [{{repo_owner}}/{{repo_name}}@{{payload.ref.replace('refs/heads/','')}}]({{payload.compare}}): “{{payload.commits[payload.commits.length-1].message.slice(0,50)}}…”"
+            }
 
       - name: Commit & Push
         run: |
