@@ -89,6 +89,9 @@
 Last Updated: Monday, September 22nd, 2025, 1:19:01 PM
 <!--RECENT_ACTIVITY:last_update_end-->
 
+<!-- ACTIVITY:START -->
+<!-- ACTIVITY:END -->
+
 ## Github Stats  
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=Jordancuadro&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
