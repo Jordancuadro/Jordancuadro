@@ -92,11 +92,11 @@ Last Updated: Monday, October 6th, 2025, 1:19:56 PM
 
 <br/>
 <!-- ACTIVITY:START -->
-1. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/Jordancuadro@main](undefined): “Create Update README.yml…”
-2. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/Jordancuadro@main](undefined): “Update update-readme.yml…”
-3. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/Jordancuadro@main](undefined): “Update README.md…”
-4. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/Jordancuadro@main](undefined): “Update README.md…”
-5. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/Jordancuadro@main](undefined): “Update update-readme.yml…”
+1. 🚀 Jordancuadro pushed 1 commits to [Jordancuadro/curso-github-actions@aprendiendo-github-actions](undefined): “fix tiggers…”
+2. 🆕 PR [Jordancuadro/curso-github-actions#3](https://github.com/Jordancuadro/curso-github-actions/pull/3) opened: “Aprendiendo GitHub actions…”
+3. 🚀 Jordancuadro pushed 2 commits to [Jordancuadro/curso-github-actions@aprendiendo-github-actions](undefined): “Merge branch 'aprendiendo-github-actions' of githu…”
+4. 🚀 Jordancuadro pushed 6 commits to [Jordancuadro/curso-github-actions@main](undefined): “Merge pull request #1 from Jordancuadro/aprendiend…”
+...
 <!-- ACTIVITY:END -->
 
 ## Github Stats  
