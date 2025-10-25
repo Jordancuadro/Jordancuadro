@@ -2,7 +2,7 @@ name: Update Activity Timeline
 
 on:
   schedule:
-    - cron: "* */6 * * *" # Customize CRON run timing - like this it runs hourly
+    - cron: "0 17 * * *" # Customize CRON run timing - like this it runs hourly
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
               "pr_opened": "{{index}}. 🆕 PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) opened: “{{payload.pull_request.title.slice(0,50)}}…”",
               "pr_closed": "{{index}}. {{payload.pull_request.merged ? '🎯 Merged' : '❌ Closed'}} PR [{{repo}}#{{payload.pull_request.number}}]({{payload.pull_request.html_url}}) by {{actor}}",
               "pr_merged": "...",
-              "push": "{{index}}. 🚀 {{actor}} pushed {{payload.commits.length}} commits to [{{repo_owner}}/{{repo_name}}@{{payload.ref.replace('refs/heads/','')}}]({{payload.compare}}): “{{payload.commits[payload.commits.length-1].message.slice(0,50)}}…”"
+              "push": "..."
             }
 
       - name: Commit & Push
